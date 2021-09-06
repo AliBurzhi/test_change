@@ -60,7 +60,8 @@ images.forEach(image => {
 
 
 
-//=====================================================================================|
+//========================================================================================|
+// task number 1
 /* const remBtn = document.querySelector('[data-action="decrement"]');
 const addBtn = document.querySelector('[data-action="increment"]');
 let currentValue = document.querySelector('#value');
