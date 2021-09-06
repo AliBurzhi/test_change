@@ -10,8 +10,6 @@ titleEl.forEach(title => {
 }); */
 
 //======================================================================================|
-
-
 /* const ingredients = [
   'Картошка',
   'Грибы',
@@ -24,15 +22,13 @@ titleEl.forEach(title => {
 const ulListRef = document.querySelector('#ingredients');
 
 
-
 ingredients.forEach(ingredient => {
     const liItem = document.createElement('li');
     liItem.textContent = ingredient;
     ulListRef.append(liItem);
 }); */
 
-//=====================================================================================|
-
+//=======================================================================================|
 /* const images = [
   {
     url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -65,7 +61,6 @@ images.forEach(image => {
 
 
 //=====================================================================================|
-
 /* const remBtn = document.querySelector('[data-action="decrement"]');
 const addBtn = document.querySelector('[data-action="increment"]');
 let currentValue = document.querySelector('#value');
@@ -84,7 +79,6 @@ function remValue () {
 } */
 
 //=====================================================================================|
-
 /* const inputRef = document.querySelector('#name-input');
 const spanRef = document.querySelector('#name-output');
 
@@ -99,7 +93,6 @@ function onInputChange() {
 } */
 
 //=====================================================================================|
-
 /* const inputRef = document.querySelector('#validation-input');
 
 
@@ -116,7 +109,6 @@ function onInputBlur() {
 } */
 
 //=====================================================================================|
-
 /* const input = document.querySelector('#font-size-control');
 const span = document.querySelector('#text');
 
