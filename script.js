@@ -231,7 +231,7 @@ createBtn.addEventListener("click", () => {
 //   },
 // ];
 
-/* const galleryContainer = document.querySelector('.js-gallery');
+const galleryContainer = document.querySelector('.js-gallery');
 const imagesMarkUp = createGalleryMarkUp(galleryItems);
 
 
@@ -280,12 +280,12 @@ function closeLightbox(event) {
     removeClassIsOpen(modalContainer);
     modalContainer.removeEventListener('click', closeLightbox);
 
-  }
+  } 
 }
 
 function removeClassIsOpen(lightBox) {
   lightBox.classList.remove('is-open');
-} */
+}
 
 
 //=====================================================================================|
